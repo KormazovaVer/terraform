@@ -16,17 +16,17 @@
 2. Клонируйте репозиторий:
 
    ```bash
-   git clone <URL Вашего репозитория>
-   cd <имя папки>
+   git clone https://github.com/KormazovaVer/terraform
+   cd terraform
 
 3. Создайте файл terraform.tfvars и добавьте Ваши токены и идентификаторы:
 
-yc_token = "ваш_OAuth_токен"
-yc_cloud_id  = "ваш_Yandex_Cloud_ID"
-yc_folder_id = "ваш_Yandex_Folder_ID"
-bucket  = "имя_вашего_бакета"
-location     = "ваша_локация"
-access       = "public-read"
+yc_token = "ваш_OAuth_токен"  
+yc_cloud_id  = "ваш_Yandex_Cloud_ID"  
+yc_folder_id = "ваш_Yandex_Folder_ID"  
+bucket  = "имя_вашего_бакета"  
+location     = "ваша_локация"  
+access       = "public-read"  
 
 ## Использование
 
